@@ -44,4 +44,4 @@
 ### 若停用休眠，正常情況下這個檔案就不會存在
 
 執行`powercfg -h off`後重開機<br>
-執行`powercfg -h off`後再重開機<br>
+執行`powercfg -h on`後再重開機<br>
