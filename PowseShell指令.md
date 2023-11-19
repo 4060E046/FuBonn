@@ -36,3 +36,12 @@
 `Dism /Online /Cleanup-Image /CheckHealth`
 ### 快速檢查線上映像
 `sfc /scannow`
+
+---
+
+# 重新整理hiberfil.sys檔案
+### hiberfil.sys 是電腦休眠時，為了能回到休眠前的工作狀態，所存在的一種記憶體暫存檔
+### 若停用休眠，正常情況下這個檔案就不會存在
+
+執行`powercfg -h off`後重開機<br>
+執行`powercfg -h off`後再重開機<br>
