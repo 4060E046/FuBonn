@@ -6,3 +6,4 @@ windows powershell（系統管理員），打開後在命令列輸入以下命�
 `Disable-NetAdapterRsc空格-name空格WLAN`<br>
 或者是<br>
 `Disable-NetAdapterRsc空格-name空格 Wi-Fi`<br>
+### 若沒報錯，重啟電腦即可
